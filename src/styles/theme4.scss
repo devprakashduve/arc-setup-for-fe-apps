@@ -1,0 +1,36 @@
+// themes.scss
+.themeFour {
+  --primary-color: theme('colors.themeFour.primaryColor');
+  --secondary-color: theme('colors.themeFour.secondaryColor');
+  --background-color: theme('colors.themeFour.backgroundColor');
+
+  --text-color: theme('colors.themeFour.textColor');
+
+  --font-size: theme('colors.themeFour.fontSize');
+
+  --line-height: theme('colors.themeFour.lineHeight');
+
+  --border-radius: theme('colors.themeFour.borderRadius');
+  --box-shadow: theme('colors.themeFour.boxShadow');
+  --link-color: theme('colors.themeFour.linkColor');
+  --link-hover-color: theme('colors.themeFour.linkHoverColor');
+
+  --accent-color: theme('colors.themeFour.accentColor');
+  --error-color: theme('colors.themeFour.errorColor');
+
+  --input-background: theme('colors.themeFour.inputBackground');
+  --input-border: theme('colors.themeFour.inputBorder');
+  --input-focus-border: theme('colors.themeFour.inputFocusBorder');
+
+  --success-color: theme('colors.themeFour.successColor');
+  --warning-color: theme('colors.themeFour.warningColor');
+  --info-color: theme('colors.themeFour.infoColor');
+
+  --dark-gray: theme('colors.themeFour.darkGray');
+  --medium-gray: theme('colors.themeFour.mediumGray');
+  --light-gray: theme('colors.themeFour.lightGray');
+  --extra-light-gray: theme('colors.themeFour.extraLightGray');
+
+  --spacing-unit: theme('colors.themeFour.spacingUnit');
+  --max-width: theme('colors.themeFour.maxWidth');
+}

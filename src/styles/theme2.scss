@@ -1,0 +1,36 @@
+// themes.scss
+.themeTwo {
+  --primary-color: theme('colors.themeTwo.primaryColor');
+  --secondary-color: theme('colors.themeTwo.secondaryColor');
+  --background-color: theme('colors.themeTwo.backgroundColor');
+
+  --text-color: theme('colors.themeTwo.textColor');
+
+  --font-size: theme('colors.themeTwo.fontSize');
+
+  --line-height: theme('colors.themeTwo.lineHeight');
+
+  --border-radius: theme('colors.themeTwo.borderRadius');
+  --box-shadow: theme('colors.themeTwo.boxShadow');
+  --link-color: theme('colors.themeTwo.linkColor');
+  --link-hover-color: theme('colors.themeTwo.linkHoverColor');
+
+  --accent-color: theme('colors.themeTwo.accentColor');
+  --error-color: theme('colors.themeTwo.errorColor');
+
+  --input-background: theme('colors.themeTwo.inputBackground');
+  --input-border: theme('colors.themeTwo.inputBorder');
+  --input-focus-border: theme('colors.themeTwo.inputFocusBorder');
+
+  --success-color: theme('colors.themeTwo.successColor');
+  --warning-color: theme('colors.themeTwo.warningColor');
+  --info-color: theme('colors.themeTwo.infoColor');
+
+  --dark-gray: theme('colors.themeTwo.darkGray');
+  --medium-gray: theme('colors.themeTwo.mediumGray');
+  --light-gray: theme('colors.themeTwo.lightGray');
+  --extra-light-gray: theme('colors.themeTwo.extraLightGray');
+
+  --spacing-unit: theme('colors.themeTwo.spacingUnit');
+  --max-width: theme('colors.themeTwo.maxWidth');
+}

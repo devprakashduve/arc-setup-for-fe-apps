@@ -1,0 +1,72 @@
+.button {
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+  margin: 1px;
+}
+
+main {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-weight: normal;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--light-gray);
+  padding: var(--spacing-unit);
+}
+
+main {
+  padding: var(--spacing-unit);
+}
+
+footer {
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  padding: var(--spacing-unit);
+  text-align: center;
+}
+
+/* ... (Previous code remains unchanged) */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--light-gray);
+  padding: var(--spacing-unit);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--light-gray);
+}
+
+input {
+  padding: var(--spacing-unit);
+  border: 1px solid var(--input-border);
+  border-radius: var(--border-radius);
+  background-color: var(--input-background);
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: var(--input-focus-border);
+}
+
+/*# sourceMappingURL=common.css.map */

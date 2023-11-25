@@ -1,0 +1,44 @@
+$font-family: 'Arial', sans-serif;
+
+@import 'theme1';
+@import 'theme2';
+@import 'theme3';
+@import 'theme4';
+@import 'theme5';
+@import 'theme6';
+@import 'theme7';
+
+@import 'common';
+
+// themes.scss
+
+// :root {
+//   --primary-color: theme('colors.selectedTheme.primaryColor');
+//   --secondary-color: theme('colors.selectedTheme.secondaryColor');
+//   --background-color: theme('colors.selectedTheme.backgroundColor');
+// }
+
+// body {
+//   background-color: var(--background-color);
+// }
+
+// // Additional variables if needed
+// $font-family: 'Arial', sans-serif;
+// main {
+//   background-color: var(--background-color);
+// }
+// // Styles for a button
+// .button {
+//   padding: 10px 20px;
+//   font-family: $font-family;
+//   cursor: pointer;
+// }
+// .primary {
+//   background-color: var(--background-color);
+//   color: #fff;
+// }
+
+// .button-secondary {
+//   background-color: var(--secondary-color);
+//   color: #fff;
+// }

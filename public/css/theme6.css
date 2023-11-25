@@ -1,0 +1,28 @@
+.themeSix {
+  --primary-color: theme("colors.themeSix.primaryColor");
+  --secondary-color: theme("colors.themeSix.secondaryColor");
+  --background-color: theme("colors.themeSix.backgroundColor");
+  --text-color: theme("colors.themeSix.textColor");
+  --font-size: theme("colors.themeSix.fontSize");
+  --line-height: theme("colors.themeSix.lineHeight");
+  --border-radius: theme("colors.themeSix.borderRadius");
+  --box-shadow: theme("colors.themeSix.boxShadow");
+  --link-color: theme("colors.themeSix.linkColor");
+  --link-hover-color: theme("colors.themeSix.linkHoverColor");
+  --accent-color: theme("colors.themeSix.accentColor");
+  --error-color: theme("colors.themeSix.errorColor");
+  --input-background: theme("colors.themeSix.inputBackground");
+  --input-border: theme("colors.themeSix.inputBorder");
+  --input-focus-border: theme("colors.themeSix.inputFocusBorder");
+  --success-color: theme("colors.themeSix.successColor");
+  --warning-color: theme("colors.themeSix.warningColor");
+  --info-color: theme("colors.themeSix.infoColor");
+  --dark-gray: theme("colors.themeSix.darkGray");
+  --medium-gray: theme("colors.themeSix.mediumGray");
+  --light-gray: theme("colors.themeSix.lightGray");
+  --extra-light-gray: theme("colors.themeSix.extraLightGray");
+  --spacing-unit: theme("colors.themeSix.spacingUnit");
+  --max-width: theme("colors.themeSix.maxWidth");
+}
+
+/*# sourceMappingURL=theme6.css.map */

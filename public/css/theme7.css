@@ -1,0 +1,28 @@
+.themeSeven {
+  --primary-color: theme("colors.themeSeven.primaryColor");
+  --secondary-color: theme("colors.themeSeven.secondaryColor");
+  --background-color: theme("colors.themeSeven.backgroundColor");
+  --text-color: theme("colors.themeSeven.textColor");
+  --font-size: theme("colors.themeSeven.fontSize");
+  --line-height: theme("colors.themeSeven.lineHeight");
+  --border-radius: theme("colors.themeSeven.borderRadius");
+  --box-shadow: theme("colors.themeSeven.boxShadow");
+  --link-color: theme("colors.themeSeven.linkColor");
+  --link-hover-color: theme("colors.themeSeven.linkHoverColor");
+  --accent-color: theme("colors.themeSeven.accentColor");
+  --error-color: theme("colors.themeSeven.errorColor");
+  --input-background: theme("colors.themeSeven.inputBackground");
+  --input-border: theme("colors.themeSeven.inputBorder");
+  --input-focus-border: theme("colors.themeSeven.inputFocusBorder");
+  --success-color: theme("colors.themeSeven.successColor");
+  --warning-color: theme("colors.themeSeven.warningColor");
+  --info-color: theme("colors.themeSeven.infoColor");
+  --dark-gray: theme("colors.themeSeven.darkGray");
+  --medium-gray: theme("colors.themeSeven.mediumGray");
+  --light-gray: theme("colors.themeSeven.lightGray");
+  --extra-light-gray: theme("colors.themeSeven.extraLightGray");
+  --spacing-unit: theme("colors.themeSeven.spacingUnit");
+  --max-width: theme("colors.themeSeven.maxWidth");
+}
+
+/*# sourceMappingURL=theme7.css.map */

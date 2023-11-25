@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Noto Serif";
+  src: url("./fonts/Noto_Serif/NotoSerif-Italic-VariableFont_wdth,wght.ttf") format("truetype"), url("./fonts/Noto_Serif/NotoSerif-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: normal, bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dancing Script";
+  src: url("./fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal, bold;
+  font-style: normal;
+}
+.themeOne {
+  --primary-color: theme("colors.themeOne.primaryColor");
+  --secondary-color: theme("colors.themeOne.secondaryColor");
+  --background-color: theme("colors.themeOne.backgroundColor");
+  --button-background-color: theme("colors.themeOne.buttonBackgroundColor");
+  --button-hover-color: theme("colors.themeOne.buttonHoverColor");
+  --text-color: theme("colors.themeOne.textColor");
+  --font-size: theme("colors.themeOne.fontSize");
+  --font-weight: theme("colors.themeOne.fontWeight");
+  --line-height: theme("colors.themeOne.lineHeight");
+  --border-radius: theme("colors.themeOne.borderRadius");
+  --box-shadow: theme("colors.themeOne.boxShadow");
+  --link-color: theme("colors.themeOne.linkColor");
+  --link-hover-color: theme("colors.themeOne.linkHoverColor");
+  --accent-color: theme("colors.themeOne.accentColor");
+  --error-color: theme("colors.themeOne.errorColor");
+  --input-background: theme("colors.themeOne.inputBackground");
+  --input-border: theme("colors.themeOne.inputBorder");
+  --input-focus-border: theme("colors.themeOne.inputFocusBorder");
+  --success-color: theme("colors.themeOne.successColor");
+  --warning-color: theme("colors.themeOne.warningColor");
+  --info-color: theme("colors.themeOne.infoColor");
+  --dark-gray: theme("colors.themeOne.darkGray");
+  --medium-gray: theme("colors.themeOne.mediumGray");
+  --light-gray: theme("colors.themeOne.lightGray");
+  --extra-light-gray: theme("colors.themeOne.extraLightGray");
+  --spacing-unit: theme("colors.themeOne.spacingUnit");
+  --max-width: theme("colors.themeOne.maxWidth");
+}
+.themeOne main {
+  background: var(--background-color);
+  font-family: "Times New Roman", Times, serif; /* Fallback font */
+}
+.themeOne main h1,
+.themeOne main h2,
+.themeOne main h3,
+.themeOne main h4,
+.themeOne main h5,
+.themeOne main h6 {
+  font-family: "Dancing Script", cursive;
+}
+.themeOne main .alert {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.themeOne main .close-button {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+}
+.themeOne main button {
+  background: var(--button-background-color);
+  box-shadow: var(--box-shadow);
+  font-family: "Noto Serif", serif;
+  font-weight: normal;
+}
+.themeOne main button:hover {
+  background: var(--button-hover-color);
+}
+
+/*# sourceMappingURL=theme1.css.map */

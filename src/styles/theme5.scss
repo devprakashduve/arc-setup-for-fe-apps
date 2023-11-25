@@ -1,0 +1,36 @@
+// themes.scss
+.themeFive {
+  --primary-color: theme('colors.themeFive.primaryColor');
+  --secondary-color: theme('colors.themeFive.secondaryColor');
+  --background-color: theme('colors.themeFive.backgroundColor');
+
+  --text-color: theme('colors.themeFive.textColor');
+
+  --font-size: theme('colors.themeFive.fontSize');
+
+  --line-height: theme('colors.themeFive.lineHeight');
+
+  --border-radius: theme('colors.themeFive.borderRadius');
+  --box-shadow: theme('colors.themeFive.boxShadow');
+  --link-color: theme('colors.themeFive.linkColor');
+  --link-hover-color: theme('colors.themeFive.linkHoverColor');
+
+  --accent-color: theme('colors.themeFive.accentColor');
+  --error-color: theme('colors.themeFive.errorColor');
+
+  --input-background: theme('colors.themeFive.inputBackground');
+  --input-border: theme('colors.themeFive.inputBorder');
+  --input-focus-border: theme('colors.themeFive.inputFocusBorder');
+
+  --success-color: theme('colors.themeFive.successColor');
+  --warning-color: theme('colors.themeFive.warningColor');
+  --info-color: theme('colors.themeFive.infoColor');
+
+  --dark-gray: theme('colors.themeFive.darkGray');
+  --medium-gray: theme('colors.themeFive.mediumGray');
+  --light-gray: theme('colors.themeFive.lightGray');
+  --extra-light-gray: theme('colors.themeFive.extraLightGray');
+
+  --spacing-unit: theme('colors.themeFive.spacingUnit');
+  --max-width: theme('colors.themeFive.maxWidth');
+}

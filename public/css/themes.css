@@ -1,0 +1,306 @@
+@font-face {
+  font-family: "Noto Serif";
+  src: url("./fonts/Noto_Serif/NotoSerif-Italic-VariableFont_wdth,wght.ttf") format("truetype"), url("./fonts/Noto_Serif/NotoSerif-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: normal, bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dancing Script";
+  src: url("./fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal, bold;
+  font-style: normal;
+}
+.themeOne {
+  --primary-color: theme("colors.themeOne.primaryColor");
+  --secondary-color: theme("colors.themeOne.secondaryColor");
+  --background-color: theme("colors.themeOne.backgroundColor");
+  --button-background-color: theme("colors.themeOne.buttonBackgroundColor");
+  --button-hover-color: theme("colors.themeOne.buttonHoverColor");
+  --text-color: theme("colors.themeOne.textColor");
+  --font-size: theme("colors.themeOne.fontSize");
+  --font-weight: theme("colors.themeOne.fontWeight");
+  --line-height: theme("colors.themeOne.lineHeight");
+  --border-radius: theme("colors.themeOne.borderRadius");
+  --box-shadow: theme("colors.themeOne.boxShadow");
+  --link-color: theme("colors.themeOne.linkColor");
+  --link-hover-color: theme("colors.themeOne.linkHoverColor");
+  --accent-color: theme("colors.themeOne.accentColor");
+  --error-color: theme("colors.themeOne.errorColor");
+  --input-background: theme("colors.themeOne.inputBackground");
+  --input-border: theme("colors.themeOne.inputBorder");
+  --input-focus-border: theme("colors.themeOne.inputFocusBorder");
+  --success-color: theme("colors.themeOne.successColor");
+  --warning-color: theme("colors.themeOne.warningColor");
+  --info-color: theme("colors.themeOne.infoColor");
+  --dark-gray: theme("colors.themeOne.darkGray");
+  --medium-gray: theme("colors.themeOne.mediumGray");
+  --light-gray: theme("colors.themeOne.lightGray");
+  --extra-light-gray: theme("colors.themeOne.extraLightGray");
+  --spacing-unit: theme("colors.themeOne.spacingUnit");
+  --max-width: theme("colors.themeOne.maxWidth");
+}
+.themeOne main {
+  background: var(--background-color);
+  font-family: "Times New Roman", Times, serif; /* Fallback font */
+}
+.themeOne main h1,
+.themeOne main h2,
+.themeOne main h3,
+.themeOne main h4,
+.themeOne main h5,
+.themeOne main h6 {
+  font-family: "Dancing Script", cursive;
+}
+.themeOne main .alert {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.themeOne main .close-button {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+}
+.themeOne main button {
+  background: var(--button-background-color);
+  box-shadow: var(--box-shadow);
+  font-family: "Noto Serif", serif;
+  font-weight: normal;
+}
+.themeOne main button:hover {
+  background: var(--button-hover-color);
+}
+
+.themeTwo {
+  --primary-color: theme("colors.themeTwo.primaryColor");
+  --secondary-color: theme("colors.themeTwo.secondaryColor");
+  --background-color: theme("colors.themeTwo.backgroundColor");
+  --text-color: theme("colors.themeTwo.textColor");
+  --font-size: theme("colors.themeTwo.fontSize");
+  --line-height: theme("colors.themeTwo.lineHeight");
+  --border-radius: theme("colors.themeTwo.borderRadius");
+  --box-shadow: theme("colors.themeTwo.boxShadow");
+  --link-color: theme("colors.themeTwo.linkColor");
+  --link-hover-color: theme("colors.themeTwo.linkHoverColor");
+  --accent-color: theme("colors.themeTwo.accentColor");
+  --error-color: theme("colors.themeTwo.errorColor");
+  --input-background: theme("colors.themeTwo.inputBackground");
+  --input-border: theme("colors.themeTwo.inputBorder");
+  --input-focus-border: theme("colors.themeTwo.inputFocusBorder");
+  --success-color: theme("colors.themeTwo.successColor");
+  --warning-color: theme("colors.themeTwo.warningColor");
+  --info-color: theme("colors.themeTwo.infoColor");
+  --dark-gray: theme("colors.themeTwo.darkGray");
+  --medium-gray: theme("colors.themeTwo.mediumGray");
+  --light-gray: theme("colors.themeTwo.lightGray");
+  --extra-light-gray: theme("colors.themeTwo.extraLightGray");
+  --spacing-unit: theme("colors.themeTwo.spacingUnit");
+  --max-width: theme("colors.themeTwo.maxWidth");
+}
+
+.themeThree {
+  --primary-color: theme("colors.themeThree.primaryColor");
+  --secondary-color: theme("colors.themeThree.secondaryColor");
+  --background-color: theme("colors.themeThree.backgroundColor");
+  --text-color: theme("colors.themeThree.textColor");
+  --font-size: theme("colors.themeThree.fontSize");
+  --line-height: theme("colors.themeThree.lineHeight");
+  --border-radius: theme("colors.themeThree.borderRadius");
+  --box-shadow: theme("colors.themeThree.boxShadow");
+  --link-color: theme("colors.themeThree.linkColor");
+  --link-hover-color: theme("colors.themeThree.linkHoverColor");
+  --accent-color: theme("colors.themeThree.accentColor");
+  --error-color: theme("colors.themeThree.errorColor");
+  --input-background: theme("colors.themeThree.inputBackground");
+  --input-border: theme("colors.themeThree.inputBorder");
+  --input-focus-border: theme("colors.themeThree.inputFocusBorder");
+  --success-color: theme("colors.themeThree.successColor");
+  --warning-color: theme("colors.themeThree.warningColor");
+  --info-color: theme("colors.themeThree.infoColor");
+  --dark-gray: theme("colors.themeThree.darkGray");
+  --medium-gray: theme("colors.themeThree.mediumGray");
+  --light-gray: theme("colors.themeThree.lightGray");
+  --extra-light-gray: theme("colors.themeThree.extraLightGray");
+  --spacing-unit: theme("colors.themeThree.spacingUnit");
+  --max-width: theme("colors.themeThree.maxWidth");
+}
+
+.themeFour {
+  --primary-color: theme("colors.themeFour.primaryColor");
+  --secondary-color: theme("colors.themeFour.secondaryColor");
+  --background-color: theme("colors.themeFour.backgroundColor");
+  --text-color: theme("colors.themeFour.textColor");
+  --font-size: theme("colors.themeFour.fontSize");
+  --line-height: theme("colors.themeFour.lineHeight");
+  --border-radius: theme("colors.themeFour.borderRadius");
+  --box-shadow: theme("colors.themeFour.boxShadow");
+  --link-color: theme("colors.themeFour.linkColor");
+  --link-hover-color: theme("colors.themeFour.linkHoverColor");
+  --accent-color: theme("colors.themeFour.accentColor");
+  --error-color: theme("colors.themeFour.errorColor");
+  --input-background: theme("colors.themeFour.inputBackground");
+  --input-border: theme("colors.themeFour.inputBorder");
+  --input-focus-border: theme("colors.themeFour.inputFocusBorder");
+  --success-color: theme("colors.themeFour.successColor");
+  --warning-color: theme("colors.themeFour.warningColor");
+  --info-color: theme("colors.themeFour.infoColor");
+  --dark-gray: theme("colors.themeFour.darkGray");
+  --medium-gray: theme("colors.themeFour.mediumGray");
+  --light-gray: theme("colors.themeFour.lightGray");
+  --extra-light-gray: theme("colors.themeFour.extraLightGray");
+  --spacing-unit: theme("colors.themeFour.spacingUnit");
+  --max-width: theme("colors.themeFour.maxWidth");
+}
+
+.themeFive {
+  --primary-color: theme("colors.themeFive.primaryColor");
+  --secondary-color: theme("colors.themeFive.secondaryColor");
+  --background-color: theme("colors.themeFive.backgroundColor");
+  --text-color: theme("colors.themeFive.textColor");
+  --font-size: theme("colors.themeFive.fontSize");
+  --line-height: theme("colors.themeFive.lineHeight");
+  --border-radius: theme("colors.themeFive.borderRadius");
+  --box-shadow: theme("colors.themeFive.boxShadow");
+  --link-color: theme("colors.themeFive.linkColor");
+  --link-hover-color: theme("colors.themeFive.linkHoverColor");
+  --accent-color: theme("colors.themeFive.accentColor");
+  --error-color: theme("colors.themeFive.errorColor");
+  --input-background: theme("colors.themeFive.inputBackground");
+  --input-border: theme("colors.themeFive.inputBorder");
+  --input-focus-border: theme("colors.themeFive.inputFocusBorder");
+  --success-color: theme("colors.themeFive.successColor");
+  --warning-color: theme("colors.themeFive.warningColor");
+  --info-color: theme("colors.themeFive.infoColor");
+  --dark-gray: theme("colors.themeFive.darkGray");
+  --medium-gray: theme("colors.themeFive.mediumGray");
+  --light-gray: theme("colors.themeFive.lightGray");
+  --extra-light-gray: theme("colors.themeFive.extraLightGray");
+  --spacing-unit: theme("colors.themeFive.spacingUnit");
+  --max-width: theme("colors.themeFive.maxWidth");
+}
+
+.themeSix {
+  --primary-color: theme("colors.themeSix.primaryColor");
+  --secondary-color: theme("colors.themeSix.secondaryColor");
+  --background-color: theme("colors.themeSix.backgroundColor");
+  --text-color: theme("colors.themeSix.textColor");
+  --font-size: theme("colors.themeSix.fontSize");
+  --line-height: theme("colors.themeSix.lineHeight");
+  --border-radius: theme("colors.themeSix.borderRadius");
+  --box-shadow: theme("colors.themeSix.boxShadow");
+  --link-color: theme("colors.themeSix.linkColor");
+  --link-hover-color: theme("colors.themeSix.linkHoverColor");
+  --accent-color: theme("colors.themeSix.accentColor");
+  --error-color: theme("colors.themeSix.errorColor");
+  --input-background: theme("colors.themeSix.inputBackground");
+  --input-border: theme("colors.themeSix.inputBorder");
+  --input-focus-border: theme("colors.themeSix.inputFocusBorder");
+  --success-color: theme("colors.themeSix.successColor");
+  --warning-color: theme("colors.themeSix.warningColor");
+  --info-color: theme("colors.themeSix.infoColor");
+  --dark-gray: theme("colors.themeSix.darkGray");
+  --medium-gray: theme("colors.themeSix.mediumGray");
+  --light-gray: theme("colors.themeSix.lightGray");
+  --extra-light-gray: theme("colors.themeSix.extraLightGray");
+  --spacing-unit: theme("colors.themeSix.spacingUnit");
+  --max-width: theme("colors.themeSix.maxWidth");
+}
+
+.themeSeven {
+  --primary-color: theme("colors.themeSeven.primaryColor");
+  --secondary-color: theme("colors.themeSeven.secondaryColor");
+  --background-color: theme("colors.themeSeven.backgroundColor");
+  --text-color: theme("colors.themeSeven.textColor");
+  --font-size: theme("colors.themeSeven.fontSize");
+  --line-height: theme("colors.themeSeven.lineHeight");
+  --border-radius: theme("colors.themeSeven.borderRadius");
+  --box-shadow: theme("colors.themeSeven.boxShadow");
+  --link-color: theme("colors.themeSeven.linkColor");
+  --link-hover-color: theme("colors.themeSeven.linkHoverColor");
+  --accent-color: theme("colors.themeSeven.accentColor");
+  --error-color: theme("colors.themeSeven.errorColor");
+  --input-background: theme("colors.themeSeven.inputBackground");
+  --input-border: theme("colors.themeSeven.inputBorder");
+  --input-focus-border: theme("colors.themeSeven.inputFocusBorder");
+  --success-color: theme("colors.themeSeven.successColor");
+  --warning-color: theme("colors.themeSeven.warningColor");
+  --info-color: theme("colors.themeSeven.infoColor");
+  --dark-gray: theme("colors.themeSeven.darkGray");
+  --medium-gray: theme("colors.themeSeven.mediumGray");
+  --light-gray: theme("colors.themeSeven.lightGray");
+  --extra-light-gray: theme("colors.themeSeven.extraLightGray");
+  --spacing-unit: theme("colors.themeSeven.spacingUnit");
+  --max-width: theme("colors.themeSeven.maxWidth");
+}
+
+.button {
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+  margin: 1px;
+}
+
+main {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-weight: normal;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--light-gray);
+  padding: var(--spacing-unit);
+}
+
+main {
+  padding: var(--spacing-unit);
+}
+
+footer {
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  padding: var(--spacing-unit);
+  text-align: center;
+}
+
+/* ... (Previous code remains unchanged) */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--light-gray);
+  padding: var(--spacing-unit);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--light-gray);
+}
+
+input {
+  padding: var(--spacing-unit);
+  border: 1px solid var(--input-border);
+  border-radius: var(--border-radius);
+  background-color: var(--input-background);
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: var(--input-focus-border);
+}
+
+/*# sourceMappingURL=themes.css.map */

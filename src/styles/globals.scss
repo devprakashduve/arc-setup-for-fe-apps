@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'themes';
+
+// :root {
+//   /* ... (Previous code remains unchanged) */
+
+//   --gradient-primary: linear-gradient(
+//     to right,
+//     #ff416c,
+//     #ff4b2b
+//   ); /* Gradient from pink to orange */
+//   --gradient-secondary: linear-gradient(
+//     to right,
+//     #00c6fb,
+//     #005bea
+//   ); /* Gradient from blue to dark blue */
+//   --gradient-tertiary: linear-gradient(
+//     to right,
+//     #36d1dc,
+//     #5b86e5
+//   ); /* Gradient from light blue to purple */
+//   --gradient-quaternary: linear-gradient(
+//     to right,
+//     #12c2e9,
+//     #c471ed,
+//     #f64f59
+//   ); /* Gradient from light blue to pink */
+// }
+
+// /* ... (Previous code remains unchanged) */
+// body {
+//   background: var(--gradient-primary);
+// }
+
+// .button {
+//   background: var(--gradient-secondary);
+// }
+
+// .card {
+//   background: var(--gradient-tertiary);
+// }
