@@ -14,5 +14,8 @@ const Template: Story<NavigationProps> = (args) => <Navigation {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
-  items: ['Home', 'About', 'Contact'],
+  items: [
+    { name: 'Home', link: '/' },
+    { name: 'about', link: '/about' },
+  ],
 }

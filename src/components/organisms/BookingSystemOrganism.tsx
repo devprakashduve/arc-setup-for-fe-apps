@@ -1,7 +1,4 @@
 import React from 'react'
-import Calendar from './Calendar'
-import BookingForm from './BookingForm'
-import BookingList from './BookingList'
 
 interface Booking {
   id: number
@@ -19,13 +16,13 @@ const BookingSystemOrganism: React.FC<BookingSystemOrganismProps> = ({
 }) => {
   return (
     <div className="booking-system">
-      <div className="booking-calendar">
+      {/* <div className="booking-calendar">
         <Calendar />
       </div>
       <div className="booking-section">
         <BookingForm />
         <BookingList bookings={bookings} />
-      </div>
+      </div> */}
     </div>
   )
 }

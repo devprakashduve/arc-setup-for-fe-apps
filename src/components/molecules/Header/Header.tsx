@@ -103,20 +103,19 @@ const Header: React.FC<HeaderProps> = ({ logoSrc, navItems }) => {
         isOpen={isModalOpen}
         onClose={handleModel}
         title={'Enter your key'}
-        children={
-          <ReactSearchAutocomplete
-            items={items}
-            onSearch={handleOnSearch}
-            onHover={handleOnHover}
-            onSelect={handleOnSelect}
-            onFocus={handleOnFocus}
-            autoFocus
-            formatResult={formatResult}
-            placeholder="Enter your key.."
-          />
-        }
         isBackgroundFull={false}
-      />
+      >
+        <ReactSearchAutocomplete
+          items={items}
+          onSearch={handleOnSearch}
+          onHover={handleOnHover}
+          onSelect={handleOnSelect}
+          onFocus={handleOnFocus}
+          autoFocus
+          formatResult={formatResult}
+          placeholder="Enter your key.."
+        />
+      </Modal>
     </>
   )
 }

@@ -15,5 +15,8 @@ const Template: Story<NavBarProps> = (args) => <NavBar {...args} />
 export const Default = Template.bind({})
 Default.args = {
   logoSrc: 'https://placekitten.com/300/200',
-  navItems: ['Home', 'About', 'Contact'],
+  navItems: [
+    { name: 'Home', link: '/' },
+    { name: 'about', link: '/about' },
+  ],
 }

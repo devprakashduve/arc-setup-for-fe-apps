@@ -7,4 +7,5 @@ export interface ImageProps {
   alt: string
   width?: number
   height?: number
+  classes?: string
 }

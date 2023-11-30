@@ -19,7 +19,7 @@ const HeaderWithSearch: React.FC<HeaderWithSearchProps> = ({
     <header className="header-with-search">
       <div className="header-content">
         <div className="header-logo">
-          <Logo src={logoSrc} alt="Logo" />
+          <Logo src={logoSrc} alt="Logo" type={'image'} />
         </div>
         <div className="header-nav">
           <Navigation items={navItems} />

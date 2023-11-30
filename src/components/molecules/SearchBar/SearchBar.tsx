@@ -21,7 +21,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
         onChange={onChange}
         designShape={'flat'}
       />
-      <Button onClick={onSearch} text="Search" />
+      <Button onClick={onSearch} text="Search" withIcon={false} />
     </div>
   )
 }

@@ -15,7 +15,7 @@ const FeatureBox: React.FC<FeatureBoxProps> = ({
   return (
     <div className="feature-box">
       <div className="icon-wrapper">
-        <Icon name={icon} />
+        <Icon name={icon} iconElement={undefined} />
       </div>
       <div className="feature-content">
         <h3>{title}</h3>

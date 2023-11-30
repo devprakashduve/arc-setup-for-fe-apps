@@ -28,7 +28,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSubmit }) => {
         value=""
         onChange={() => {}}
       />
-      <Button onClick={onSubmit} text="Login" />
+      <Button onClick={onSubmit} text="Login" withIcon={false} />
     </form>
   )
 }

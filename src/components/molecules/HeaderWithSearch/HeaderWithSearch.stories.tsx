@@ -17,7 +17,10 @@ const Template: Story<HeaderWithSearchProps> = (args) => (
 export const Default = Template.bind({})
 Default.args = {
   logoSrc: 'https://placekitten.com/200/200', // replace with your actual logo URL
-  navItems: ['Home', 'About', 'Contact'],
+  navItems: [
+    { name: 'Home', link: '/' },
+    { name: 'about', link: '/about' },
+  ],
   placeholder: 'Search...',
   searchValue: '',
   onSearchChange: () => {},

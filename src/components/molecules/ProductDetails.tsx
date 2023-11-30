@@ -28,6 +28,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({
         <Button
           text="Add to Cart"
           onClick={() => console.log(`Added ${title} to cart`)}
+          withIcon={false}
         />
       </div>
       <div className="product-tags">

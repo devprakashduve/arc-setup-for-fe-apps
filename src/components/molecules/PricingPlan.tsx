@@ -23,6 +23,7 @@ const PricingPlan: React.FC<PricingPlanProps> = ({ name, price, features }) => {
         onClick={function (): void {
           throw new Error('Function not implemented.')
         }}
+        withIcon={false}
       />
       <Badge text="Popular" />
     </div>

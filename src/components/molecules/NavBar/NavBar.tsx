@@ -11,14 +11,22 @@ const NavBar: React.FC<NavBarProps> = ({ logoSrc, navItems }) => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Logo src={logoSrc} alt="Logo" />
+        <Logo src={logoSrc} alt="Logo" type={'image'} />
       </div>
       <div className="navbar-links">
         <Navigation items={navItems} />
       </div>
       <div className="navbar-actions">
-        <Button text="Sign In" onClick={() => console.log('Sign In')} />
-        <Button text="Sign Up" onClick={() => console.log('Sign Up')} />
+        <Button
+          text="Sign In"
+          onClick={() => console.log('Sign In')}
+          withIcon={false}
+        />
+        <Button
+          text="Sign Up"
+          onClick={() => console.log('Sign Up')}
+          withIcon={false}
+        />
       </div>
     </nav>
   )

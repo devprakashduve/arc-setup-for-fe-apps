@@ -20,7 +20,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       <Image src={imageUrl} alt={title} />
       <h3>{title}</h3>
       <p>${price}</p>
-      <Button onClick={onAddToCart} text="Add to Cart" />
+      <Button onClick={onAddToCart} text="Add to Cart" withIcon={false} />
     </div>
   )
 }

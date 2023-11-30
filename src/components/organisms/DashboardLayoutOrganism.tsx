@@ -1,8 +1,5 @@
 import React from 'react'
-import Sidebar from './Sidebar'
-import MainContent from './MainContent'
-import Header from './Header'
-import Footer from './Footer'
+import Header from '../molecules/Header'
 
 interface DashboardLayoutOrganismProps {
   user: string
@@ -17,12 +14,12 @@ const DashboardLayoutOrganism: React.FC<DashboardLayoutOrganismProps> = ({
 }) => {
   return (
     <div className="dashboard-layout">
-      <Header user={user} />
+      {/* <Header user={user} />
       <div className="dashboard-content">
         <Sidebar items={sidebarItems} />
         <MainContent>{content}</MainContent>
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

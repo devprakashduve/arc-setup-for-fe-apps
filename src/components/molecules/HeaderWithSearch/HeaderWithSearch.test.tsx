@@ -8,7 +8,6 @@ test('renders HeaderWithSearch component', () => {
   const { getByText } = render(
     <HeaderWithSearch
       logoSrc="your-logo-url" // replace with your actual logo URL
-      navItems={['Home', 'About', 'Contact']}
       placeholder="Search..."
       searchValue=""
       onSearchChange={() => {}}

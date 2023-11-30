@@ -4,11 +4,12 @@ import React from 'react'
 import './Avatar.scss'
 import { AvatarProps } from './interface'
 import { addClass } from '@/components/reusableFunctionality/customFunctionality'
+import Image from '../Image'
 
 const Avatar: React.FC<AvatarProps> = (props) => {
   return (
-    <img
-      className={addClass('avatar,' + props.classes)}
+    <Image
+      classes={addClass('avatar,' + props.classes)}
       src={props.src}
       alt={props.alt}
     />
