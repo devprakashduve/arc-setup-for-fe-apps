@@ -21,8 +21,11 @@ export default function RootLayout({
     { name: 'About', link: 'about' },
     { name: 'Contact', link: 'contact' },
   ]
+  const nonce = btoa(Math.random().toString())
+  const content = "script-src 'self' 'nonce-'" + nonce
   return (
     <html lang="en">
+      <meta http-equiv="Content-Security-Policy" content={content} />
       <body className={themeName + ' ' + inter.className}>
         <div className="main">
           <Header

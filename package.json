@@ -12,7 +12,8 @@
     "sass": "sass -w src/styles/:public/css/",
     "build-storybook": "storybook build",
     "prepare": "husky install",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "generate": "next build  && mv dist/_next dist/next && find dist -name '*.html' -exec sed -i '' -e 's/\\/_next/\\.\\/next/g' {} + && mv dist/index.html ../extension && rsync -va --delete-after dist/next/ ../extension/next/"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
