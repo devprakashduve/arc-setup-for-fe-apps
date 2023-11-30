@@ -18,7 +18,6 @@
   font-style: normal;
 }
 .themeOne {
-  $font-family: 'Dancing Script', cursive;
   --primary-color: theme('colors.themeOne.primaryColor');
   --secondary-color: theme('colors.themeOne.secondaryColor');
   --background-color: theme('colors.themeOne.backgroundColor');
@@ -56,35 +55,66 @@
   --spacing-unit: theme('colors.themeOne.spacingUnit');
   --max-width: theme('colors.themeOne.maxWidth');
 
-  main {
+  color: var(--text-color);
+  .main {
     background: var(--background-color);
     // font-family: 'Noto Serif', serif; /* Custom font */
     font-family: 'Times New Roman', Times, serif; /* Fallback font */
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: 'Dancing Script', cursive;
+    // h1,
+    // h2,
+    // h3,
+    // h4,
+    // h5,
+    // h6 {
+    //   font-family: 'Dancing Script', cursive;
+    // }
+    input:focus {
+      border: none;
+      border-color: var(--primary-color);
+      box-shadow: var(--box-shadow);
+    }
+    .dYrfwz > input {
+      color: var(--text-color);
     }
     .alert {
       font-family: 'Dancing Script', cursive;
       font-size: 30px;
       font-weight: 600;
     }
+    label {
+      // font-family: 'Dancing Script', cursive;
+      font-size: 20px;
+      // font-weight: 600;
+    }
     .close-button {
       font-family: 'Noto Serif', serif;
       font-weight: bold;
     }
+    form {
+      button {
+        border-radius: 20%;
+        width: 200px;
+      }
+    }
+    .logo {
+      button {
+        font-weight: bolder;
+      }
+      button:hover {
+        background: var(--button-background-color);
+      }
+    }
+    // .breadcrumb {
+    //   color: var(--light-gray);
+    // }
 
     button {
       background: var(--button-background-color);
       box-shadow: var(--box-shadow);
       font-family: 'Noto Serif', serif;
       font-weight: normal;
-
-      // font-family: 'Arial', sans-serif; /* Fallback font */
+      border-radius: 20%;
+      padding: 4px 20px;
     }
 
     button:hover {

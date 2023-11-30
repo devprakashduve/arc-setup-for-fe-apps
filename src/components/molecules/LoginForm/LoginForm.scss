@@ -1,0 +1,16 @@
+// LoginForm/LoginForm.scss
+
+.login-form {
+  min-width: 100px;
+  max-width: 500px;
+  margin: 0 auto;
+
+  .form-field {
+    margin-bottom: 15px;
+  }
+
+  .button {
+    width: 100%;
+    border-radius: 10%;
+  }
+}

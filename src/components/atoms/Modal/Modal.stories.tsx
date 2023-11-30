@@ -6,7 +6,7 @@ import Modal from './Modal'
 import { ModalProps } from './interface'
 
 export default {
-  title: 'Components/Modal',
+  title: 'Components/ATOM/Modal',
   component: Modal,
 } as Meta
 
@@ -18,4 +18,13 @@ Default.args = {
   onClose: () => {},
   title: 'Example Modal',
   children: <p>This is the modal content.</p>,
+  isBackgroundFull: true,
+}
+export const WithoutBackground = Template.bind({})
+WithoutBackground.args = {
+  isOpen: true,
+  onClose: () => {},
+  title: 'Example Modal',
+  children: <p>This is the modal content.</p>,
+  isBackgroundFull: false,
 }

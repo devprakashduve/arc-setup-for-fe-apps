@@ -6,7 +6,7 @@ import Breadcrumb from './Breadcrumb'
 import { BreadcrumbProps } from './interface'
 
 export default {
-  title: 'Components/Breadcrumb',
+  title: 'Components/ATOM/Breadcrumb',
   component: Breadcrumb,
 } as Meta
 

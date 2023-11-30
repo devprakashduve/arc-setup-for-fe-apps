@@ -38,35 +38,51 @@
   --extra-light-gray: theme("colors.themeOne.extraLightGray");
   --spacing-unit: theme("colors.themeOne.spacingUnit");
   --max-width: theme("colors.themeOne.maxWidth");
+  color: var(--text-color);
 }
-.themeOne main {
+.themeOne .main {
   background: var(--background-color);
   font-family: "Times New Roman", Times, serif; /* Fallback font */
 }
-.themeOne main h1,
-.themeOne main h2,
-.themeOne main h3,
-.themeOne main h4,
-.themeOne main h5,
-.themeOne main h6 {
-  font-family: "Dancing Script", cursive;
+.themeOne .main input:focus {
+  border: none;
+  border-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
-.themeOne main .alert {
+.themeOne .main .dYrfwz > input {
+  color: var(--text-color);
+}
+.themeOne .main .alert {
   font-family: "Dancing Script", cursive;
   font-size: 30px;
   font-weight: 600;
 }
-.themeOne main .close-button {
+.themeOne .main label {
+  font-size: 20px;
+}
+.themeOne .main .close-button {
   font-family: "Noto Serif", serif;
   font-weight: bold;
 }
-.themeOne main button {
+.themeOne .main form button {
+  border-radius: 20%;
+  width: 200px;
+}
+.themeOne .main .logo button {
+  font-weight: bolder;
+}
+.themeOne .main .logo button:hover {
+  background: var(--button-background-color);
+}
+.themeOne .main button {
   background: var(--button-background-color);
   box-shadow: var(--box-shadow);
   font-family: "Noto Serif", serif;
   font-weight: normal;
+  border-radius: 20%;
+  padding: 4px 20px;
 }
-.themeOne main button:hover {
+.themeOne .main button:hover {
   background: var(--button-hover-color);
 }
 

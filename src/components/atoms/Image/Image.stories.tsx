@@ -6,7 +6,7 @@ import Image from './Image'
 import { ImageProps } from './interface'
 
 export default {
-  title: 'Components/Image',
+  title: 'Components/ATOM/Image',
   component: Image,
 } as Meta
 

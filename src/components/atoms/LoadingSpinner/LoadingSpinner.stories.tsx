@@ -6,7 +6,7 @@ import LoadingSpinner from './LoadingSpinner'
 import { LoadingSpinnerProps } from './interface'
 
 export default {
-  title: 'Components/LoadingSpinner',
+  title: 'Components/ATOM/LoadingSpinner',
   component: LoadingSpinner,
 } as Meta
 

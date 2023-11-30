@@ -1,0 +1,29 @@
+// FeatureBox/FeatureBox.scss
+
+.feature-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  .icon-wrapper {
+    margin-right: 20px;
+  }
+
+  .feature-content {
+    flex-grow: 1;
+
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      margin: 10px 0 0;
+    }
+  }
+
+  .status-badge {
+    margin-left: 20px;
+  }
+}

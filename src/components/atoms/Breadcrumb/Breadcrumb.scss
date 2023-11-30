@@ -1,0 +1,38 @@
+// Breadcrumb/Breadcrumb.scss
+
+.breadcrumb {
+  font-size: 16px;
+  padding: 40px 0;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  li {
+    margin-right: 5px;
+    padding: 20px 0;
+  }
+
+  span {
+    margin-right: 5px;
+    // color: #ccc; // Adjust the color as needed
+  }
+
+  /* Styling for the last item in the breadcrumb */
+  li:last-child {
+    font-weight: bold; // Make the last item bold, for example
+  }
+
+  /* Styling for the link items in the breadcrumb */
+  a {
+    text-decoration: none;
+    color: #e75b5b; // Adjust the color as needed
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

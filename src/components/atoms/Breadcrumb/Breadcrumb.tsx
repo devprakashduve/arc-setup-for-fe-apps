@@ -3,6 +3,8 @@
 import React from 'react'
 import './Breadcrumb.scss'
 import { BreadcrumbProps } from './interface'
+import Divider from '../Divider'
+import Link from 'next/link'
 
 const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
   return (
@@ -10,11 +12,16 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
       <ul>
         {items.map((item, index) => (
           <li key={index}>
-            {item}
-            {index !== items.length - 1 && <span> / </span>}
+            {index < items.length - 1 ? (
+              <Link href={item}>{item.toUpperCase()}</Link>
+            ) : (
+              <span> {item.toUpperCase()} </span>
+            )}
+            {index !== items.length - 1 && <span> {' / '} </span>}
           </li>
         ))}
       </ul>
+      <Divider />
     </nav>
   )
 }

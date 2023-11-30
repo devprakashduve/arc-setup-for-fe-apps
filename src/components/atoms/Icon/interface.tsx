@@ -3,7 +3,8 @@
 import React from 'react'
 
 export interface IconProps {
-  name: string
+  name?: string
   size?: number
   color?: string
+  iconElement: any
 }

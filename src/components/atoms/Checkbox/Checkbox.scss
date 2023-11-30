@@ -1,0 +1,36 @@
+// Checkbox.scss
+
+.checkbox {
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+
+    input {
+      appearance: none;
+      margin-right: 8px;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #ab1c1c; // Checkbox border color
+      border-radius: 4px;
+      outline: none;
+      transition: border-color 0.3s ease-in-out;
+
+      &:checked {
+        border-color: #ab1c1c; // Checked state border color
+        background-color: #ab1c1c; // Checked state background color
+
+        &::before {
+          display: block;
+          text-align: center;
+          color: #fff; // Color of the check mark
+        }
+      }
+
+      &:focus {
+        box-shadow: 0 0 0 2px #ab1c1c; // Focus state border color
+      }
+    }
+  }
+}

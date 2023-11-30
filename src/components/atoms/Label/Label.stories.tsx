@@ -6,7 +6,7 @@ import Label from './Label'
 import { LabelProps } from './interface'
 
 export default {
-  title: 'Components/Label',
+  title: 'Components/ATOM/Label',
   component: Label,
 } as Meta
 

@@ -6,7 +6,7 @@ import Divider from './Divider'
 import { DividerProps } from './interface'
 
 export default {
-  title: 'Components/Divider',
+  title: 'Components/ATOM/Divider',
   component: Divider,
 } as Meta
 

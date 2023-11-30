@@ -10,8 +10,8 @@ const Image: React.FC<ImageProps> = ({ src, alt, width, height }) => {
       className="custom-image"
       src={src}
       alt={alt}
-      width={width}
-      height={height}
+      width={width ?? '110px'}
+      height={height ?? '110px'}
     />
   )
 }

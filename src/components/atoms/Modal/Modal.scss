@@ -11,41 +11,39 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 999;
-}
+  font-size: calc(1em + 1vw);
+  color: #fff;
+  .modal-content {
+    &.fillBackground {
+      background: #fff;
+    }
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
-.modal-content {
-  background: #fff;
-  max-width: 600px;
-  width: 100%;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
 
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-}
+  .modal-header h2 {
+    margin: 0;
+  }
 
-.modal-header h2 {
-  margin: 0;
-}
+  /* Close button styles */
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
 
-.modal-body {
-  /* Add additional styles for the modal body if needed */
-}
-
-/* Close button styles */
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  color: #3498db;
-}
-
-button:hover {
-  text-decoration: underline;
+  button:hover {
+    text-decoration: underline;
+  }
 }

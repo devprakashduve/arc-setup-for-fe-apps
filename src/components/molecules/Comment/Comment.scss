@@ -1,0 +1,22 @@
+// Comment/Comment.scss
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .comment-content {
+    h4 {
+      margin: 0;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+  }
+}

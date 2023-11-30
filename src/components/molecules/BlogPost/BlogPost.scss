@@ -1,0 +1,36 @@
+// BlogPost/BlogPost.scss
+
+.blog-post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    h3 {
+      margin: 0;
+    }
+
+    .author-details {
+      margin-left: 10px;
+    }
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}

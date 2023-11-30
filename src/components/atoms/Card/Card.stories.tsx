@@ -6,7 +6,7 @@ import Card from './Card'
 import { CardProps } from './interface'
 
 export default {
-  title: 'Components/Card',
+  title: 'Components/ATOM/Card',
   component: Card,
 } as Meta
 

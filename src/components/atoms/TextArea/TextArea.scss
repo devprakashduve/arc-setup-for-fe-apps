@@ -1,0 +1,10 @@
+// TextArea/TextArea.scss
+
+.custom-textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  resize: vertical; /* Allow vertical resizing */
+}

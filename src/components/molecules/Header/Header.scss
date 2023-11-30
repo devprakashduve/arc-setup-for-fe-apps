@@ -1,0 +1,82 @@
+// ResponsiveNavBar/ResponsiveNavBar.scss
+
+.responsive-navbar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f8f8;
+
+  .navbar-logo {
+    flex: 1;
+  }
+
+  .navbar-links {
+    // flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      &.open {
+        .navigation ul li {
+          display: flex;
+        }
+      }
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background-color: #ab1c1c;
+      padding: 10px;
+      z-index: 1;
+
+      &.open {
+        display: flex;
+        color: #fff;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        border-bottom: 1px solid #555;
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .searchResult {
+    :hover {
+      background-color: #555;
+      color: #ab1c1c;
+    }
+  }
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+
+    .bar {
+      height: 4px;
+      width: 30px;
+      background-color: #ab1c1c;
+      margin: 6px 0;
+      transition: 0.4s;
+
+      &.open {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      display: flex;
+    }
+  }
+}

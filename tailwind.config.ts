@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-const defaultTheme = require('tailwindcss/defaultTheme')
+// const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   content: [
@@ -25,9 +25,7 @@ const config: Config = {
       lg: '1200px',
       xl: '1536px',
     },
-    fontFamily: {
-      sans: ['Lato', ...defaultTheme.fontFamily.sans],
-    },
+
     colors: {
       themeOne: require('./src/theme').theme_1,
       themeTwo: require('./src/theme').theme_2,

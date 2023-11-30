@@ -1,0 +1,23 @@
+// ContactCard/ContactCard.scss
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  .contact-avatar {
+    margin-right: 10px;
+  }
+
+  .contact-details {
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+  }
+}

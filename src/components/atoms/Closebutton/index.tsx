@@ -1,6 +1,7 @@
 import { CloseButtonProps } from './interface'
 import './closeButton.scss'
 import { addClass } from '@/components/reusableFunctionality/customFunctionality'
+import Icon from '../Icon'
 
 const CloseButton = (props: CloseButtonProps) => {
   return (
@@ -8,7 +9,9 @@ const CloseButton = (props: CloseButtonProps) => {
       className={addClass('close-button ' + props.align)}
       onClick={props.clickFunction}
     >
-      &times;
+      <Icon
+        iconElement={<i className="fa-sharp fa-solid fa-xmark fa-xl"></i>}
+      />
     </span>
   )
 }
